@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin-top: 150px;
+    margin-left: 500px;
+    min-height: 320px;
+    max-height: 850px;
+    min-width: 120px;
+    max-width: 320px;
+    border: 15px solid red;
+}
