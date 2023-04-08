@@ -29,6 +29,11 @@ body {
     text-align: center;
 }
 
+.res {
+    float: right;
+    font-size: 28px;
+}
+
 
 .numeros {
     width: 100%;
@@ -55,14 +60,24 @@ body {
     background-color: rgb(0, 0, 0);
     margin: 0;
     color: white;
+    border: 1px solid white
 }
 
 .igualdade {
     height: 70px;
-    width: 194px;
+    width: 92px;
     background-color: rgb(255, 255, 255);
     margin: 0;
     color: black;
+}
+
+.ac {
+    height: 70px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    color: black;
+    text-transform: uppercase;
 }
 
 .calculo2:hover {
@@ -71,7 +86,48 @@ body {
 }
 
 
-button {
-    height: 50px;
-    width: 50px;
+.botao {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: 10px;
+    background-color: black;
+    color: white;
 }
+
+.botao:hover {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    transform: scale(0.9);
+}
+
+.btt {
+    background-color: white;
+    color: black;
+    border: transparent;
+}
+
+.btt:hover {
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    transform: scale(0.9);
+}
+
+.teste {
+    background-color: white;
+    transition: 2s;
+}
+
+.change {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.re {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
