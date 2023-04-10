@@ -49,6 +49,3 @@ function myFunction () {
 
 
 
-//let btt = document.querySelector(".botao").addEventListener("click", myFunction);
-
-//let fundo = document.body.style.background = "white";
