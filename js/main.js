@@ -1,8 +1,22 @@
 
+function insert (num) {
+    let numero = document.querySelector(".res").innerHTML;
+    document.querySelector(".res").innerHTML = numero + num;
+}
 
+function clean () {
+    document.querySelector(".res").innerHTML = "";
+    
+}
 
-
-
+function calcular() {
+   let numero = document.querySelector(".res").innerHTML;
+   if (numero) {
+    document.querySelector(".res").innerHTML = eval(numero);
+   } else {
+    document.querySelector(".res").innerHTML = "Nada...";
+   }
+}
 
 
 function myFunction () {
@@ -11,26 +25,24 @@ function myFunction () {
 
     document.querySelector(".numeros").classList.toggle("change");
 
-    document.querySelector("#um").classList.toggle("change");
-    document.querySelector("#dois").classList.toggle("change");
-    document.querySelector("#tres").classList.toggle("change");
-    document.querySelector("#quatro").classList.toggle("change");
-    document.querySelector("#cinco").classList.toggle("change");
-    document.querySelector("#seis").classList.toggle("change");
-    document.querySelector("#sete").classList.toggle("change");
-    document.querySelector("#oito").classList.toggle("change");
-    document.querySelector("#nove").classList.toggle("change");
-    document.querySelector("#dez").classList.toggle("change");
-    document.querySelector("#mais").classList.toggle("change");
-    document.querySelector("#menos").classList.toggle("change");
-    document.querySelector("#vezes").classList.toggle("change");
-    document.querySelector("#divisao").classList.toggle("change");
+    document.querySelector("#um").classList.toggle("num");
+    document.querySelector("#dois").classList.toggle("num");
+    document.querySelector("#tres").classList.toggle("num");
+    document.querySelector("#quatro").classList.toggle("num");
+    document.querySelector("#cinco").classList.toggle("num");
+    document.querySelector("#seis").classList.toggle("num");
+    document.querySelector("#sete").classList.toggle("num");
+    document.querySelector("#oito").classList.toggle("num");
+    document.querySelector("#nove").classList.toggle("num");
+    document.querySelector("#dez").classList.toggle("num");
+    document.querySelector("#mais").classList.toggle("num");
+    document.querySelector("#menos").classList.toggle("num");
+    document.querySelector("#vezes").classList.toggle("num");
+    document.querySelector("#divisao").classList.toggle("num");
 
     document.querySelector(".resultado").classList.toggle("re");
 
-    document.querySelector(".botao").classList.toggle("btt");
-    
-    
+    document.querySelector(".botao").classList.toggle("btt");    
 };
 
 
